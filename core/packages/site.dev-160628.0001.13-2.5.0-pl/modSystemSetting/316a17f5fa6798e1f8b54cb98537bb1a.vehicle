@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '36160032fbc7d5f02e358bba7c1c0225',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '316a17f5fa6798e1f8b54cb98537bb1a',
+  'native_key' => 'semanager.filename_tpl_plugin',
+  'object' => '{"key":"semanager.filename_tpl_plugin","value":"pl.php","xtype":"textfield","namespace":"semanager","area":"Files","editedon":"0000-00-00 00:00:00"}',
+);

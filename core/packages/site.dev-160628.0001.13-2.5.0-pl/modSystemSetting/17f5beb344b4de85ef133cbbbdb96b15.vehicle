@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8ead3f15a3300914f49cc59096a1060a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '17f5beb344b4de85ef133cbbbdb96b15',
+  'native_key' => 'pdotools_fenom_php',
+  'object' => '{"key":"pdotools_fenom_php","value":"","xtype":"combo-boolean","namespace":"pdotools","area":"pdotools_main","editedon":"0000-00-00 00:00:00"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a4ba44016a8e3ee7b51a41690701f10a',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '5c283555069e60f3eaf936bcb7da9d8f',
+  'native_key' => 87,
+  'object' => '{"id":87,"template":1,"name":"new_weblink","description":"perm.new_weblink_desc","value":1}',
+);

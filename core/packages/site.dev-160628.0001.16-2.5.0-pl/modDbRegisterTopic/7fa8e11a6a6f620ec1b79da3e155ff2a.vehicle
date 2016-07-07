@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1aee1a019d40c3daab84eb1c332257f5',
+  'package' => 'modx.registry.db',
+  'class' => 'modDbRegisterTopic',
+  'signature' => '7fa8e11a6a6f620ec1b79da3e155ff2a',
+  'native_key' => 1,
+  'object' => '{"id":1,"queue":2,"name":"\\/resourcereload\\/","created":"2016-06-16 18:17:20","updated":null,"options":null}',
+);

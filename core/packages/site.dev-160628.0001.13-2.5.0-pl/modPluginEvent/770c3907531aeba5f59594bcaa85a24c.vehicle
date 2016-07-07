@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd731148d685501144bedc12293dc7522',
+  'package' => 'modx',
+  'class' => 'modPluginEvent',
+  'signature' => '770c3907531aeba5f59594bcaa85a24c',
+  'native_key' => 
+  array (
+    0 => 2,
+    1 => 'OnRichTextEditorInit',
+  ),
+  'object' => '{"pluginid":2,"event":"OnRichTextEditorInit","priority":0,"propertyset":0}',
+);

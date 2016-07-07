@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '21ad44efe05434cf93016d01deb35b39',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a3ebe5a291ffd5ceb5a1e48aa629d890',
+  'native_key' => 'formit.recaptcha_public_key',
+  'object' => '{"key":"formit.recaptcha_public_key","value":"","xtype":"textfield","namespace":"formit","area":"reCaptcha","editedon":"0000-00-00 00:00:00"}',
+);

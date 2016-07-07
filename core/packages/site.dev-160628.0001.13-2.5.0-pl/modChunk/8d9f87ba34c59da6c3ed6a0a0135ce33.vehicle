@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '05519f869d51e579040e057f3f8304ea',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '8d9f87ba34c59da6c3ed6a0a0135ce33',
+  'native_key' => 7,
+  'object' => '{"id":7,"source":1,"property_preprocess":0,"name":"s-devel","description":"Chunk","editor_type":0,"category":23,"cache_type":0,"snippet":"","locked":0,"properties":null,"static":1,"static_file":"assets\\/elements\\/chunks\\/sections\\/s-devel.ch.html","content":""}',
+);

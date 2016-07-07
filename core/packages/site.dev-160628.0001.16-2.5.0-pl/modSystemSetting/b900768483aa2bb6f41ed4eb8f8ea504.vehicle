@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1687f18792dd2ade436c61379bd1cf2c',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'b900768483aa2bb6f41ed4eb8f8ea504',
+  'native_key' => 'ace.tab_size',
+  'object' => '{"key":"ace.tab_size","value":"4","xtype":"textfield","namespace":"ace","area":"general","editedon":"0000-00-00 00:00:00"}',
+);

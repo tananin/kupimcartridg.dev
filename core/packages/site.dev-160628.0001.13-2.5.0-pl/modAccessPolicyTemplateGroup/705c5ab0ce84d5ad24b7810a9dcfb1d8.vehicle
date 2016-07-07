@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '606693a8cd0518112206da13a0a7dc34',
+  'package' => 'modx',
+  'class' => 'modAccessPolicyTemplateGroup',
+  'signature' => '705c5ab0ce84d5ad24b7810a9dcfb1d8',
+  'native_key' => 1,
+  'object' => '{"id":1,"name":"Admin","description":"All admin policy templates."}',
+);

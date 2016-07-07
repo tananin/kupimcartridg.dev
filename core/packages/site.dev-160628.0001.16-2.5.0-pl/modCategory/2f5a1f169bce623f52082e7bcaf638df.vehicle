@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a937ea98f960c0a1bfa01c66c81e13f1',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '2f5a1f169bce623f52082e7bcaf638df',
+  'native_key' => 23,
+  'object' => '{"id":23,"parent":0,"category":"sections","rank":0}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '758e3b4ea550dcb64f03bb6529ce7c57',
+  'package' => 'modx',
+  'class' => 'modActionField',
+  'signature' => '07d12f38563505ac561a3b8bf1e2ba99',
+  'native_key' => 15,
+  'object' => '{"id":15,"action":"resource\\/update","name":"modx-page-settings","type":"tab","tab":"","form":"modx-panel-resource","other":"","rank":3}',
+);

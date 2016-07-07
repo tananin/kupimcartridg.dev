@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '20ed32924d32bd5fcb543f4cb56858dc',
+  'package' => 'modx',
+  'class' => 'modActionField',
+  'signature' => '6ca7a45d7c1db42668054bbcd9c40e2b',
+  'native_key' => 39,
+  'object' => '{"id":39,"action":"resource\\/create","name":"modx-resource-settings","type":"tab","tab":"","form":"modx-panel-resource","other":"","rank":0}',
+);

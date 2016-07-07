@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b20a6f905a51c1f66501605c8b4f4d64',
+  'package' => 'modx',
+  'class' => 'modAccessPolicyTemplateGroup',
+  'signature' => '340ba5238bc5a36000f327899ac17e4c',
+  'native_key' => 2,
+  'object' => '{"id":2,"name":"Object","description":"All Object-based policy templates."}',
+);

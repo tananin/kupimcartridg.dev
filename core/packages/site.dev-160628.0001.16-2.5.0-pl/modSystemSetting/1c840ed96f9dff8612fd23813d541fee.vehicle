@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '22192abaaa345dd3270ce5761bdd1e60',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1c840ed96f9dff8612fd23813d541fee',
+  'native_key' => 'pdotools_elements_path',
+  'object' => '{"key":"pdotools_elements_path","value":"{core_path}elements\\/","xtype":"textfield","namespace":"pdotools","area":"pdotools_main","editedon":"0000-00-00 00:00:00"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e6647541f75d1145768045e9b36a5319',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '6e6cac6bc1b57390c7d320e88f7c274d',
+  'native_key' => 'phpthumbon.queue',
+  'object' => '{"key":"phpthumbon.queue","value":"0","xtype":"numberfield","namespace":"phpthumbon","area":"general","editedon":"0000-00-00 00:00:00"}',
+);

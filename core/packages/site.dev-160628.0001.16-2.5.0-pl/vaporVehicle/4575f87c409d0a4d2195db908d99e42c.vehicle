@@ -1,0 +1,26 @@
+<?php return array (
+  'class' => 'vaporVehicle',
+  'object' => 
+  array (
+    'tableName' => 'thumb_images',
+    'drop' => 'DROP TABLE IF EXISTS `[[++table_prefix]]thumb_images`',
+    'table' => 'CREATE TABLE `[[++table_prefix]]thumb_images` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `image` varchar(255) DEFAULT NULL,
+  `cache_image` varchar(255) DEFAULT NULL,
+  `config` mediumtext,
+  `isend` tinyint(1) unsigned NOT NULL DEFAULT \'0\',
+  PRIMARY KEY (`id`),
+  KEY `image` (`image`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8',
+    'data' => 
+    array (
+    ),
+  ),
+  'vehicle_package' => 'vapor',
+  'vehicle_class' => 'vaporVehicle',
+  'guid' => 'fcb538d3c48cc1f13e6ad19620b1f21e',
+  'package' => '',
+  'signature' => '4575f87c409d0a4d2195db908d99e42c',
+  'native_key' => 'fcb538d3c48cc1f13e6ad19620b1f21e',
+);

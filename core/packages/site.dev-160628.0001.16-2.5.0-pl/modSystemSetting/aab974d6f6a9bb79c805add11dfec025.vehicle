@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ba4173c99c51a7b701793656e1d72bb2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'aab974d6f6a9bb79c805add11dfec025',
+  'native_key' => 'tinymcerte.image_class_list',
+  'object' => '{"key":"tinymcerte.image_class_list","value":"","xtype":"textfield","namespace":"tinymcerte","area":"default","editedon":"0000-00-00 00:00:00"}',
+);

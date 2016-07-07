@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '40ca3a357a740825513498af11db107d',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => 'e6d4e24e0ddeca037955278dc9c7931c',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":1,"property_preprocess":0,"name":"SEManager","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"if (!$modx->getOption(\'semanager.auto_create_elements\', null, false)) return \'\';\\nif (!isset($modx->semanager) || !is_object($modx->semanager)) {\\n    $semanager = $modx->getService(\'semanager\',\'SEManager\',$modx->getOption(\'semanager.core_path\',null,$modx->getOption(\'core_path\').\'components\\/semanager\\/\').\'model\\/semanager\\/\', array());\\n    if (!($semanager instanceof SEManager)) return \'---\';\\n}\\n\\nif ($files = $modx->semanager->getNewFiles()) {\\n    $modx->semanager->newElem($files);\\n    $modx->cacheManager->refresh();\\n}\\nreturn \'\';","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"core\\/components\\/semanager\\/elements\\/plugins\\/plugin.semanager.php","content":"if (!$modx->getOption(\'semanager.auto_create_elements\', null, false)) return \'\';\\nif (!isset($modx->semanager) || !is_object($modx->semanager)) {\\n    $semanager = $modx->getService(\'semanager\',\'SEManager\',$modx->getOption(\'semanager.core_path\',null,$modx->getOption(\'core_path\').\'components\\/semanager\\/\').\'model\\/semanager\\/\', array());\\n    if (!($semanager instanceof SEManager)) return \'---\';\\n}\\n\\nif ($files = $modx->semanager->getNewFiles()) {\\n    $modx->semanager->newElem($files);\\n    $modx->cacheManager->refresh();\\n}\\nreturn \'\';"}',
+);

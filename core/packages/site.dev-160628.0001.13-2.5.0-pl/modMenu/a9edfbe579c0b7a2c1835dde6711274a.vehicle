@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'bed3b0200e2167215d9b4359276ec356',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'a9edfbe579c0b7a2c1835dde6711274a',
+  'native_key' => 'view_sysinfo',
+  'object' => '{"text":"view_sysinfo","parent":"reports","action":"system\\/info","description":"view_sysinfo_desc","icon":"","menuindex":3,"params":"","handler":"","permissions":"view_sysinfo","namespace":"core"}',
+);

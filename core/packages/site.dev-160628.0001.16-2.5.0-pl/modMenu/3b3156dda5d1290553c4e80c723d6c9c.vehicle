@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '681e9d72a64c2ec6f4a438ba183bb123',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '3b3156dda5d1290553c4e80c723d6c9c',
+  'native_key' => 'logout',
+  'object' => '{"text":"logout","parent":"user","action":"security\\/logout","description":"logout_desc","icon":"","menuindex":2,"params":"","handler":"MODx.logout(); return false;","permissions":"logout","namespace":"core"}',
+);

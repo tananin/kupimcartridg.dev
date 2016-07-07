@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fb2e0568eb10bcbbe604a237784ee969',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '33f30243e4823f40749af8eda879232f',
+  'native_key' => 112,
+  'object' => '{"id":112,"template":1,"name":"remove_locks","description":"perm.remove_locks_desc","value":1}',
+);

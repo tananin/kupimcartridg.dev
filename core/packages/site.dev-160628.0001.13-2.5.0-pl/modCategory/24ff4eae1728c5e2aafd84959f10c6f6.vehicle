@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e2b0c83db9b948a60b15f50ce40a7ae4',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '24ff4eae1728c5e2aafd84959f10c6f6',
+  'native_key' => 14,
+  'object' => '{"id":14,"parent":0,"category":"AjaxForm","rank":0}',
+);

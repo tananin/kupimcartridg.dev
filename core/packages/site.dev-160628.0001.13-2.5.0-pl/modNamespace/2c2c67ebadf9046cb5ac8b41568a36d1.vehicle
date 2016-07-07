@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2fc8d74a6f119421a017b00396488fca',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '2c2c67ebadf9046cb5ac8b41568a36d1',
+  'native_key' => 'phpthumbon',
+  'object' => '{"name":"phpthumbon","path":"{core_path}components\\/phpthumbon\\/","assets_path":""}',
+);

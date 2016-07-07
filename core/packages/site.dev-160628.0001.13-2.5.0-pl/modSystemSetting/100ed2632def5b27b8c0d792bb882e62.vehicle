@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'dda54c0ad614b80abbe93ea9a020b14b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '100ed2632def5b27b8c0d792bb882e62',
+  'native_key' => 'parser_class',
+  'object' => '{"key":"parser_class","value":"pdoParser","xtype":"textfield","namespace":"pdotools","area":"pdotools_main","editedon":"0000-00-00 00:00:00"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c25e23f6921b861cb338c6eaee1e684e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'acf3bc0abd22f3bdb5aa46d3822d751d',
+  'native_key' => 'tinymcerte.external_config',
+  'object' => '{"key":"tinymcerte.external_config","value":"","xtype":"textfield","namespace":"tinymcerte","area":"default","editedon":"0000-00-00 00:00:00"}',
+);

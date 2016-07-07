@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f11e57c71c4cfdd21f02346a3511c10f',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '3bd049ce3dcd3b4c8bab0a0f2ad37d49',
+  'native_key' => 'migx',
+  'object' => '{"text":"migx","parent":"components","action":"index","description":"","icon":"","menuindex":3,"params":"&configs=packagemanager||migxconfigs||setup","handler":"","permissions":"","namespace":"migx"}',
+);

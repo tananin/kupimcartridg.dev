@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7fd1202c7e2afe27c57f1f235811911c',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '0d7dda233269c952c00069a5012b8bb9',
+  'native_key' => 113,
+  'object' => '{"id":113,"template":1,"name":"resource_duplicate","description":"perm.resource_duplicate_desc","value":1}',
+);

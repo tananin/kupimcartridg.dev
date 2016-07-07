@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '32962ec10884b15cfed73cdeb1e2cac3',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => 'e83e96319ec3c60ad73d76b3b2831a52',
+  'native_key' => 8,
+  'object' => '{"id":8,"source":1,"property_preprocess":0,"type":"textarea","name":"js","caption":"JS","description":"\\u041a\\u043e\\u0434 JavaScript \\u0432 \\u0444\\u0443\\u0442\\u0442\\u043e\\u0440 \\u0441\\u0430\\u0439\\u0442\\u0430","editor_type":0,"category":3,"locked":0,"elements":"","rank":40,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:1:{s:10:\\"allowBlank\\";s:4:\\"true\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":""}',
+);

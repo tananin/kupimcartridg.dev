@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c6cec120d2992bd27b5d1a416fc9ade8',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '66444e52bf95631e2c6f66b086ee1432',
+  'native_key' => 'which_editor',
+  'object' => '{"key":"which_editor","value":"TinyMCE RTE","xtype":"modx-combo-rte","namespace":"core","area":"editor","editedon":"0000-00-00 00:00:00"}',
+);

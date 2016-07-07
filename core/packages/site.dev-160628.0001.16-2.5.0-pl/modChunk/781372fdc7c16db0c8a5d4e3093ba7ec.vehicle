@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '995ad57521f8672fdb5c0d9f974aff64',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '781372fdc7c16db0c8a5d4e3093ba7ec',
+  'native_key' => 2,
+  'object' => '{"id":2,"source":0,"property_preprocess":0,"name":"recaptchav2_html","description":"","editor_type":0,"category":15,"cache_type":0,"snippet":"<div class=\\"g-recaptcha\\" data-sitekey=\\"[[+site_key]]\\"><\\/div>\\n<script type=\\"text\\/javascript\\" src=\\"https:\\/\\/www.google.com\\/recaptcha\\/api.js?hl=[[++cultureKey]]\\"><\\/script>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"g-recaptcha\\" data-sitekey=\\"[[+site_key]]\\"><\\/div>\\n<script type=\\"text\\/javascript\\" src=\\"https:\\/\\/www.google.com\\/recaptcha\\/api.js?hl=[[++cultureKey]]\\"><\\/script>"}',
+);

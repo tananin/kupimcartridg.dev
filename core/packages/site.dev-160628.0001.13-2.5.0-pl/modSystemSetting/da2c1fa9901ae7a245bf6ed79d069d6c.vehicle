@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ef589e9bcad449cd22e5d15034d2926a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'da2c1fa9901ae7a245bf6ed79d069d6c',
+  'native_key' => 'phpthumbon.noimage_cache',
+  'object' => '{"key":"phpthumbon.noimage_cache","value":"{assets_path}components\\/phpthumbon\\/cache\\/","xtype":"textfield","namespace":"phpthumbon","area":"path","editedon":"0000-00-00 00:00:00"}',
+);

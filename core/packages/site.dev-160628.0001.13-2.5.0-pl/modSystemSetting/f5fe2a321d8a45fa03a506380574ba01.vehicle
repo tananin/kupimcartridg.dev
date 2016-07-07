@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '657afd8127b37bb1871d3835230b8db4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f5fe2a321d8a45fa03a506380574ba01',
+  'native_key' => 'tinymcerte.toolbar2',
+  'object' => '{"key":"tinymcerte.toolbar2","value":"","xtype":"textfield","namespace":"tinymcerte","area":"tinymcerte.toolbar","editedon":"0000-00-00 00:00:00"}',
+);

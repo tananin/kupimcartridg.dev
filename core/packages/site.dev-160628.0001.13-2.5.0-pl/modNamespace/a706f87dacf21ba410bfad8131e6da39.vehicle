@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b37c88ede2d3adc347daa79cec80737b',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => 'a706f87dacf21ba410bfad8131e6da39',
+  'native_key' => 'pdotools',
+  'object' => '{"name":"pdotools","path":"{core_path}components\\/pdotools\\/","assets_path":""}',
+);

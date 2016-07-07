@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '034539878e9b5cd100ed283c22cf2f4c',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'e02abf125cbf834e8862031a7c6aa4a5',
+  'native_key' => 'tinymcerte.plugins',
+  'object' => '{"key":"tinymcerte.plugins","value":"advlist autolink lists modximage charmap print preview anchor visualblocks searchreplace code fullscreen insertdatetime media table contextmenu paste modxlink","xtype":"textfield","namespace":"tinymcerte","area":"default","editedon":"0000-00-00 00:00:00"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2335175e6cef54b6e8a3318867b730b7',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '926984ea62a218dffa8468a9c499120c',
+  'native_key' => 'lexicon_management',
+  'object' => '{"text":"lexicon_management","parent":"admin","action":"workspaces\\/lexicon","description":"lexicon_management_desc","icon":"","menuindex":7,"params":"","handler":"","permissions":"lexicons","namespace":"core"}',
+);

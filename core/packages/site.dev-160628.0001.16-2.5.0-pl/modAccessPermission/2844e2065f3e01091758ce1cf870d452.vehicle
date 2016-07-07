@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ba970ecb674d8931e098b233565c8407',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '2844e2065f3e01091758ce1cf870d452',
+  'native_key' => 14,
+  'object' => '{"id":14,"template":1,"name":"dashboards","description":"perm.dashboards_desc","value":1}',
+);

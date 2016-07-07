@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '44d2736d7653d969c7dae304a8c38804',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '91cf58291cdafd5484d9bdb981be6940',
+  'native_key' => 'ajaxform',
+  'object' => '{"name":"ajaxform","path":"{core_path}components\\/ajaxform\\/","assets_path":""}',
+);

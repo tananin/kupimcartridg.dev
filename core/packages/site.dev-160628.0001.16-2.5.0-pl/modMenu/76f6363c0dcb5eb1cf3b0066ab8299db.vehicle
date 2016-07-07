@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'eee61ee62f5aa35db79b9c1fbfccc6ff',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '76f6363c0dcb5eb1cf3b0066ab8299db',
+  'native_key' => 'resource_groups',
+  'object' => '{"text":"resource_groups","parent":"site","action":"security\\/resourcegroup","description":"resource_groups_desc","icon":"","menuindex":7,"params":"","handler":"","permissions":"access_permissions","namespace":"core"}',
+);

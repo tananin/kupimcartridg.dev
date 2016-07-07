@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e2c1a7bbb6e5a69273eb37004b1cd706',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'b5b9ee33adc443a1b79d759441d389b3',
+  'native_key' => 114,
+  'object' => '{"id":114,"template":1,"name":"resourcegroup_delete","description":"perm.resourcegroup_delete_desc","value":1}',
+);

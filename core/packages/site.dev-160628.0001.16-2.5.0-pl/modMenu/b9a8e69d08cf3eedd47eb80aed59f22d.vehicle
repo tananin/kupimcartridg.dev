@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8b65628929e37a436783a3b12a3a65d6',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'b9a8e69d08cf3eedd47eb80aed59f22d',
+  'native_key' => 'propertysets',
+  'object' => '{"text":"propertysets","parent":"admin","action":"element\\/propertyset","description":"propertysets_desc","icon":"","menuindex":6,"params":"","handler":"","permissions":"property_sets","namespace":"core"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1a8dbed01c96cf26c1dff2ffed6afe2f',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '5e97deb1cd768d92ea619b6158e30125',
+  'native_key' => 2,
+  'object' => '{"id":2,"template":1,"name":"access_permissions","description":"perm.access_permissions_desc","value":1}',
+);

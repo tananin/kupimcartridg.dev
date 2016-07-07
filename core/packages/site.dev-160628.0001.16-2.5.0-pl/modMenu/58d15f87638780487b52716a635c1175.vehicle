@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'df09f52dd5c0f75ca0aaa5828defb03f',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '58d15f87638780487b52716a635c1175',
+  'native_key' => 'eventlog_viewer',
+  'object' => '{"text":"eventlog_viewer","parent":"reports","action":"system\\/event","description":"eventlog_viewer_desc","icon":"","menuindex":2,"params":"","handler":"","permissions":"view_eventlog","namespace":"core"}',
+);

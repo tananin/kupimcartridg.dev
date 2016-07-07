@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cc8c8335e37ed2be8af3334caa61ba62',
+  'package' => 'modx',
+  'class' => 'modDashboardWidgetPlacement',
+  'signature' => '4470f3e6d3c84672b8b17d7614889b2d',
+  'native_key' => 
+  array (
+    0 => 1,
+    1 => 4,
+  ),
+  'object' => '{"dashboard":1,"widget":4,"rank":4}',
+);

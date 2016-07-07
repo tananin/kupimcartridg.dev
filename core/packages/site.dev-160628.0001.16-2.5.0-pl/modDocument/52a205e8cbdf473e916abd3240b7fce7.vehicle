@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7d44c03dae204ba9d4822d2a99eb0804',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => '52a205e8cbdf473e916abd3240b7fce7',
+  'native_key' => 8,
+  'object' => '{"id":8,"type":"document","contentType":"text\\/plain","pagetitle":"robots","longtitle":"","description":"","alias":"robots","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":3,"isfolder":0,"introtext":"","content":"User-agent: *\\r\\nDisallow: \\/manager\\/\\r\\nDisallow: \\/assets\\/components\\/\\r\\nDisallow: \\/core\\/\\r\\nDisallow: \\/connectors\\/\\r\\nDisallow: \\/index.php\\r\\nHost: [[++url]]\\r\\nSitemap: [[++site_url]]sitemap.xml\\r\\n[[If? &subject=`[[++seo_noindex]]` &operator=`EQ` &operand=`1` &then=`Disallow: \\/` &else=``]]","richtext":0,"template":0,"menuindex":3,"searchable":1,"cacheable":0,"createdby":1,"createdon":1466090909,"editedby":1,"editedon":1467045600,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":1466090820,"publishedby":1,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":3,"uri":"robots.txt","uri_override":1,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

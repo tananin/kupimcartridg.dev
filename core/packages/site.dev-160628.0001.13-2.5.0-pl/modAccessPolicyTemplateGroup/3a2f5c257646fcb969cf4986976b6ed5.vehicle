@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1501eb051f233c712f3a14dd8dd50437',
+  'package' => 'modx',
+  'class' => 'modAccessPolicyTemplateGroup',
+  'signature' => '3a2f5c257646fcb969cf4986976b6ed5',
+  'native_key' => 5,
+  'object' => '{"id":5,"name":"MediaSource","description":"All Media Source-based policy templates."}',
+);

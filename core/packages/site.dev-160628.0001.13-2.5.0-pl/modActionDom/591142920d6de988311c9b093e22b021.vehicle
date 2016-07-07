@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '382084b208f73602a7fa446780e1484a',
+  'package' => 'modx',
+  'class' => 'modActionDom',
+  'signature' => '591142920d6de988311c9b093e22b021',
+  'native_key' => 55,
+  'object' => '{"id":55,"set":2,"action":"resource\\/update","name":"modx-resource-access-permissions","description":null,"xtype":"","container":"modx-resource-tabs","rule":"tabVisible","value":"0","constraint":"","constraint_field":"","constraint_class":"modResource","active":1,"for_parent":0,"rank":2}',
+);

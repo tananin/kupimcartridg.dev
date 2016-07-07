@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ecbecbb3685af437bdb720388f65a4a4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '75476efd0cd664220af205ba9d6964a0',
+  'native_key' => 'semanager.filename_tpl_snippet',
+  'object' => '{"key":"semanager.filename_tpl_snippet","value":"sn.php","xtype":"textfield","namespace":"semanager","area":"Files","editedon":"0000-00-00 00:00:00"}',
+);

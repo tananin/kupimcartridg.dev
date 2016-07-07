@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'bb6dac421f09455cae83b42e02358d4c',
+  'package' => 'modx',
+  'class' => 'modPluginEvent',
+  'signature' => 'f080b580eb74cbf962bad6981da8072e',
+  'native_key' => 
+  array (
+    0 => 1,
+    1 => 'OnFileEditFormPrerender',
+  ),
+  'object' => '{"pluginid":1,"event":"OnFileEditFormPrerender","priority":0,"propertyset":0}',
+);

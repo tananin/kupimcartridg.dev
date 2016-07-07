@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ee226ef9119beee21d04e7cc8780bba5',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => 'f4397b044a585e44730707f5e5090df8',
+  'native_key' => 'ultimateparent',
+  'object' => '{"name":"ultimateparent","path":"{core_path}components\\/ultimateparent\\/","assets_path":""}',
+);

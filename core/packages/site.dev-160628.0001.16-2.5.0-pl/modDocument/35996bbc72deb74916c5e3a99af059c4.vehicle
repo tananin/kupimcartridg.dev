@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2518aca54a86cb2826cf22caf4318356',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => '35996bbc72deb74916c5e3a99af059c4',
+  'native_key' => 13,
+  'object' => '{"id":13,"type":"document","contentType":"text\\/html","pagetitle":"\\u0421\\u0442\\u0430\\u0442\\u044c\\u0438","longtitle":"","description":"","alias":"articles","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":1,"introtext":"","content":"","richtext":1,"template":4,"menuindex":5,"searchable":1,"cacheable":1,"createdby":1,"createdon":1466103426,"editedby":1,"editedon":1466103471,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":1466103420,"publishedby":1,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":0,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"articles","uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '92fa2b8f22d5b0b587a6267eead23104',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '17dcbf660735dc82a87c25177f1de634',
+  'native_key' => 5,
+  'object' => '{"id":5,"template":1,"name":"change_profile","description":"perm.change_profile_desc","value":1}',
+);

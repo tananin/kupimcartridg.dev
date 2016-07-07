@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a926bffe131b3ab1440893cde7148057',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '667d2bfe0f62b42834d2d30de4c43d5d',
+  'native_key' => 'file_browser',
+  'object' => '{"text":"file_browser","parent":"media","action":"media\\/browser","description":"file_browser_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"file_manager","namespace":"core"}',
+);

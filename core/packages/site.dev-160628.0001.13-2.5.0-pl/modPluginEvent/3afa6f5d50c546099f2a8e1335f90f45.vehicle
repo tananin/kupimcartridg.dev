@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '70300d7173adf9727782a338c78cecb7',
+  'package' => 'modx',
+  'class' => 'modPluginEvent',
+  'signature' => '3afa6f5d50c546099f2a8e1335f90f45',
+  'native_key' => 
+  array (
+    0 => 3,
+    1 => 'OnSiteRefresh',
+  ),
+  'object' => '{"pluginid":3,"event":"OnSiteRefresh","priority":0,"propertyset":0}',
+);

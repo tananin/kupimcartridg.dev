@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c469a7aaccae4bf87a655001d9a1e8d3',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => '113f227321df38bfa8e6c56b43ea8448',
+  'native_key' => 2,
+  'object' => '{"id":2,"source":1,"property_preprocess":0,"type":"tag","name":"seo_keywords","caption":"keywords","description":"\\u041a\\u043b\\u044e\\u0447\\u0435\\u0432\\u044b\\u0435 \\u0441\\u043b\\u043e\\u0432\\u0430","editor_type":0,"category":4,"locked":0,"elements":"","rank":20,"display":"default","default_text":"[[++seo_keywords]]","properties":"a:0:{}","input_properties":"a:1:{s:10:\\"allowBlank\\";s:4:\\"true\\";}","output_properties":"a:2:{s:1:\\"w\\";s:4:\\"100%\\";s:1:\\"h\\";s:5:\\"300px\\";}","static":0,"static_file":"","content":"[[++seo_keywords]]"}',
+);

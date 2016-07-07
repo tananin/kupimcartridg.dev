@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c1998b61b1dae358c931bde9241ce0d4',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => '099c4a69debbcca54429f802c938f700',
+  'native_key' => 27,
+  'object' => '{"id":27,"source":1,"property_preprocess":0,"type":"migx","name":"slider","caption":"\\u0421\\u043b\\u0430\\u0439\\u0434\\u0435\\u0440 \\u0438\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0439","description":"","editor_type":0,"category":19,"locked":0,"elements":"","rank":60,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:7:{s:7:\\"configs\\";s:0:\\"\\";s:8:\\"formtabs\\";s:282:\\"[{\\"caption\\":\\"Image\\", \\"fields\\": [\\n{\\"field\\":\\"set\\",\\"caption\\":\\"\\u0421\\u043b\\u0430\\u0439\\u0434\\u0435\\u0440\\"},\\n{\\"field\\":\\"link\\",\\"caption\\":\\"\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430\\"},\\n{\\"field\\":\\"description\\",\\"caption\\":\\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u043b\\u0430\\u0439\\u0434\\u0430\\",\\"inputTVtype\\":\\"richtext\\"},\\n{\\"field\\":\\"image\\",\\"caption\\":\\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\\",\\"inputTV\\":\\"images\\"}\\n]\\n}]\\";s:7:\\"columns\\";s:340:\\"[\\n{\\"header\\": \\"\\u0421\\u043b\\u0430\\u0439\\u0434\\u0435\\u0440\\", \\"sortable\\": \\"true\\", \\"dataIndex\\": \\"set\\"},\\n{\\"header\\": \\"\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430\\", \\"sortable\\": \\"true\\", \\"dataIndex\\": \\"link\\"},\\n{\\"header\\": \\"\\u0422\\u0435\\u043a\\u0441\\u0442 \\u0441\\u043b\\u0430\\u0439\\u0434\\u0430\\", \\"sortable\\": \\"true\\", \\"dataIndex\\": \\"description\\"},\\n{\\"header\\": \\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\\", \\"sortable\\": \\"false\\", \\"dataIndex\\": \\"image\\",\\"renderer\\": \\"this.renderImage\\"}\\n]\\";s:7:\\"btntext\\";s:0:\\"\\";s:10:\\"previewurl\\";s:0:\\"\\";s:10:\\"jsonvarkey\\";s:0:\\"\\";s:19:\\"autoResourceFolders\\";s:5:\\"false\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":""}',
+);

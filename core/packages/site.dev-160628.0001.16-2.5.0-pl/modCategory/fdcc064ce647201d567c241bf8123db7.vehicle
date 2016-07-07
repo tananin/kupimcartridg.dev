@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '32884ca85266920ff1353cb336283398',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'fdcc064ce647201d567c241bf8123db7',
+  'native_key' => 15,
+  'object' => '{"id":15,"parent":0,"category":"ReCaptchaV2","rank":0}',
+);

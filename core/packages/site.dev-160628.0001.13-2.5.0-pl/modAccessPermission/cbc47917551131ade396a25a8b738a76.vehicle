@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '86e454e143111ab697d31f5a77a8c37f',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'cbc47917551131ade396a25a8b738a76',
+  'native_key' => 131,
+  'object' => '{"id":131,"template":1,"name":"save_role","description":"perm.save_role_desc","value":1}',
+);

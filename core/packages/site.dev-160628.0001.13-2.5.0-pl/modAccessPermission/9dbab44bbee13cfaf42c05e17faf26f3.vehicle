@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '686de6397215df3a88b5652928c06010',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '9dbab44bbee13cfaf42c05e17faf26f3',
+  'native_key' => 85,
+  'object' => '{"id":85,"template":1,"name":"new_static_resource","description":"perm.new_static_resource_desc","value":1}',
+);

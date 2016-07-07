@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7b38d85ac29983c971d8a837e88ef55e',
+  'package' => 'modx',
+  'class' => 'modAccessPolicyTemplateGroup',
+  'signature' => '51399d5f0c1ea7c979677d377be8f810',
+  'native_key' => 6,
+  'object' => '{"id":6,"name":"Namespace","description":"All Namespace based policy templates."}',
+);

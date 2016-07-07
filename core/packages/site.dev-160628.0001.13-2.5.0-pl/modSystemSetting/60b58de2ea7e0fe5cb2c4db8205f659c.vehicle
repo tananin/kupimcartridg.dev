@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9e257fbf91e47a7ae1a13fc78a910251',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '60b58de2ea7e0fe5cb2c4db8205f659c',
+  'native_key' => 'recaptchav2.secret_key',
+  'object' => '{"key":"recaptchav2.secret_key","value":"","xtype":"textfield","namespace":"recaptchav2","area":"default","editedon":"0000-00-00 00:00:00"}',
+);

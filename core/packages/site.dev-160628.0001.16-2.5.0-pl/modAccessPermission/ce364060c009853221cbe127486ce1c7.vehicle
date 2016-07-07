@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '86e500e5fb4546d9133ae445ae9a4af6',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'ce364060c009853221cbe127486ce1c7',
+  'native_key' => 10,
+  'object' => '{"id":10,"template":1,"name":"countries","description":"perm.countries_desc","value":1}',
+);

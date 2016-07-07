@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0db4f51e5e350a470a95d9faf8fffdd2',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '9e39051bbeacb40b1b0b58d869a4d9b7',
+  'native_key' => 18,
+  'object' => '{"id":18,"parent":0,"category":"pdoTools","rank":0}',
+);

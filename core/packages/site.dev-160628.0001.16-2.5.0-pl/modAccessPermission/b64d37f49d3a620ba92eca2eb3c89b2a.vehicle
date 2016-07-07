@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '99fe7b6289bad7caec50b60765a2419d',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'b64d37f49d3a620ba92eca2eb3c89b2a',
+  'native_key' => 24,
+  'object' => '{"id":24,"template":1,"name":"delete_snippet","description":"perm.delete_snippet_desc","value":1}',
+);

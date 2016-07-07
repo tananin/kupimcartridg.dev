@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '43201d3b4787c38a2a11f8b53618465e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '352b3c514c2b13cede99a9ec3ee6f51d',
+  'native_key' => 'cache_format',
+  'object' => '{"key":"cache_format","value":"0","xtype":"textfield","namespace":"core","area":"caching","editedon":"0000-00-00 00:00:00"}',
+);

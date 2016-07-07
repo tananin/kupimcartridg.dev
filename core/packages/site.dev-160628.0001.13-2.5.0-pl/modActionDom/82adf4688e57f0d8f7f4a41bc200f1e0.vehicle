@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7350431fc6281565e193cdb02cfa40c4',
+  'package' => 'modx',
+  'class' => 'modActionDom',
+  'signature' => '82adf4688e57f0d8f7f4a41bc200f1e0',
+  'native_key' => 48,
+  'object' => '{"id":48,"set":2,"action":"resource\\/update","name":"modx-resource-main-left","description":null,"xtype":"","container":"modx-resource-tabs","rule":"tabVisible","value":"0","constraint":"","constraint_field":"","constraint_class":"modResource","active":1,"for_parent":0,"rank":2}',
+);

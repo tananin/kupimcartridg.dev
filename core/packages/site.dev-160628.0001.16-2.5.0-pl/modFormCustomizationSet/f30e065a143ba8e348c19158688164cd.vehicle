@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0fe48b4e64165b6d72424d2c920c1925',
+  'package' => 'modx',
+  'class' => 'modFormCustomizationSet',
+  'signature' => 'f30e065a143ba8e348c19158688164cd',
+  'native_key' => 1,
+  'object' => '{"id":1,"profile":1,"action":"resource\\/update","description":"","active":1,"template":0,"constraint":"","constraint_field":"","constraint_class":"modResource"}',
+);

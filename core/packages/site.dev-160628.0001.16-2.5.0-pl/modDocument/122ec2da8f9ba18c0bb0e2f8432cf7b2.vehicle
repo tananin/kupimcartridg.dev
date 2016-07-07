@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7abb26fa8f96c260e197c9b790f491aa',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => '122ec2da8f9ba18c0bb0e2f8432cf7b2',
+  'native_key' => 2,
+  'object' => '{"id":2,"type":"document","contentType":"text\\/html","pagetitle":"\\u0423\\u0441\\u043b\\u0443\\u0433\\u0438","longtitle":"","description":"","alias":"nastrojki-sajta","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":0,"introtext":"","content":"","richtext":1,"template":1,"menuindex":4,"searchable":1,"cacheable":1,"createdby":1,"createdon":1466075852,"editedby":1,"editedon":1467045463,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":1467044880,"publishedby":1,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":0,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"nastrojki-sajta","uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

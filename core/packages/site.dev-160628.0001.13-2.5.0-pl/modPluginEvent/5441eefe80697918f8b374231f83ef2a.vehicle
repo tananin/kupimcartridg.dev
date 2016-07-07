@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b3cdab3e970174f74ba268f21624cc60',
+  'package' => 'modx',
+  'class' => 'modPluginEvent',
+  'signature' => '5441eefe80697918f8b374231f83ef2a',
+  'native_key' => 
+  array (
+    0 => 5,
+    1 => 'OnTVInputRenderList',
+  ),
+  'object' => '{"pluginid":5,"event":"OnTVInputRenderList","priority":0,"propertyset":0}',
+);

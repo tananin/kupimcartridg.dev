@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '64eb3ef9168718106ef7ea873a43f60b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '353b553de7370fe349c010ecfb3fe42a',
+  'native_key' => 'locale',
+  'object' => '{"key":"locale","value":"ru_RU","xtype":"textfield","namespace":"core","area":"language","editedon":"2016-06-27 23:09:39"}',
+);

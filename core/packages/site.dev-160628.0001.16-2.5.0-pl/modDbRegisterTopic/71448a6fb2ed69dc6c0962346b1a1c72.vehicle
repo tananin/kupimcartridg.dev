@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2b7e7f45ecdb791f174c2f297a498559',
+  'package' => 'modx.registry.db',
+  'class' => 'modDbRegisterTopic',
+  'signature' => '71448a6fb2ed69dc6c0962346b1a1c72',
+  'native_key' => 2,
+  'object' => '{"id":2,"queue":1,"name":"\\/resource\\/","created":"2016-06-16 18:17:32","updated":null,"options":null}',
+);

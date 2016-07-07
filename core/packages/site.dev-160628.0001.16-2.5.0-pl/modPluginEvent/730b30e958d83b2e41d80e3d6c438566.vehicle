@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e5f3074ef85b5eb57272a492814d44bb',
+  'package' => 'modx',
+  'class' => 'modPluginEvent',
+  'signature' => '730b30e958d83b2e41d80e3d6c438566',
+  'native_key' => 
+  array (
+    0 => 4,
+    1 => 'OnChunkFormPrerender',
+  ),
+  'object' => '{"pluginid":4,"event":"OnChunkFormPrerender","priority":0,"propertyset":0}',
+);

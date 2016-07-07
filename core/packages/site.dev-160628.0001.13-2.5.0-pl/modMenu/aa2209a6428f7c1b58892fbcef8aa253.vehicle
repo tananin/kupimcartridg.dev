@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c5b698b3bd3d845c3ddcd3e0afb6dcb0',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'aa2209a6428f7c1b58892fbcef8aa253',
+  'native_key' => 'semanager.title',
+  'object' => '{"text":"semanager.title","parent":"components","action":"2","description":"semanager.description","icon":"","menuindex":2,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

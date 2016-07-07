@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6494a05ae8c1cbaec313aa95e66335e0',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'f7cd842e33888d76d94e898cea045b1c',
+  'native_key' => 28,
+  'object' => '{"id":28,"template":1,"name":"delete_user","description":"perm.delete_user_desc","value":1}',
+);

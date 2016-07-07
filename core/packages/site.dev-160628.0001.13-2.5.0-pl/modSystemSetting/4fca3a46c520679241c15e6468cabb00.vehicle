@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '92e2c03ea4087aae276947d1d21db20d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '4fca3a46c520679241c15e6468cabb00',
+  'native_key' => 'semanager.filename_tpl_chunk',
+  'object' => '{"key":"semanager.filename_tpl_chunk","value":"ch.html","xtype":"textfield","namespace":"semanager","area":"Files","editedon":"0000-00-00 00:00:00"}',
+);

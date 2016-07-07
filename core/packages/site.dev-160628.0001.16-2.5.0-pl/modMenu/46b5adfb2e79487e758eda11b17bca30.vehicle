@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3b8ee70768309f8387e6c00b17193456',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '46b5adfb2e79487e758eda11b17bca30',
+  'native_key' => 'view_logging',
+  'object' => '{"text":"view_logging","parent":"reports","action":"system\\/logs","description":"view_logging_desc","icon":"","menuindex":1,"params":"","handler":"","permissions":"logs","namespace":"core"}',
+);

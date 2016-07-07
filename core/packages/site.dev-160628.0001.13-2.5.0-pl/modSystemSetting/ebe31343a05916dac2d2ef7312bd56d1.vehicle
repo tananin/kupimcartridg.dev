@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b83bed9c48aee85e0947fdb70f61aefe',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'ebe31343a05916dac2d2ef7312bd56d1',
+  'native_key' => 'semanager.type_separation',
+  'object' => '{"key":"semanager.type_separation","value":"1","xtype":"combo-boolean","namespace":"semanager","area":"Other","editedon":"0000-00-00 00:00:00"}',
+);

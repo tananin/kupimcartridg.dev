@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '69355c9d0084eb666107e94f89d8a5f2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c0b336f038f65cf6222c9912cefa7653',
+  'native_key' => 'tinymcerte.paste_as_text',
+  'object' => '{"key":"tinymcerte.paste_as_text","value":"","xtype":"combo-boolean","namespace":"tinymcerte","area":"default","editedon":"0000-00-00 00:00:00"}',
+);

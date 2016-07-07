@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '90c18930d77d5a1b7697f4369acf243f',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'c249cc104ef65bc443f4de75726f858e',
+  'native_key' => 42,
+  'object' => '{"id":42,"template":1,"name":"edit_snippet","description":"perm.edit_snippet_desc","value":1}',
+);

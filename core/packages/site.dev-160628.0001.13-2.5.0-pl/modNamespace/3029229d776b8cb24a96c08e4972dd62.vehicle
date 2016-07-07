@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c93a4e50ca6c3926daa3c907472a429a',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '3029229d776b8cb24a96c08e4972dd62',
+  'native_key' => 'migx',
+  'object' => '{"name":"migx","path":"{core_path}components\\/migx\\/","assets_path":"{assets_path}components\\/migx\\/"}',
+);

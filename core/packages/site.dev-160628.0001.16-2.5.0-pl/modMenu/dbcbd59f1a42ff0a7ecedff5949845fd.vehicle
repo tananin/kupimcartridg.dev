@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6047b7dd72db59dfb09ac8778c2d1e57',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'dbcbd59f1a42ff0a7ecedff5949845fd',
+  'native_key' => 'clientconfig',
+  'object' => '{"text":"clientconfig","parent":"manage","action":"4","description":"clientconfig.desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

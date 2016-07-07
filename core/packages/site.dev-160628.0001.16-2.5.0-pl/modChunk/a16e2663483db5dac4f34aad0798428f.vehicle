@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e88169718caf95a07b0ea5c72ac6c1b0',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'a16e2663483db5dac4f34aad0798428f',
+  'native_key' => 4,
+  'object' => '{"id":4,"source":0,"property_preprocess":0,"name":"sample_formit_contact_eml","description":"","editor_type":0,"category":15,"cache_type":0,"snippet":"Contact from the website:<br \\/>\\n[[+name]] ([[+email]]) wrote: <br \\/>\\n \\n[[+text]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"Contact from the website:<br \\/>\\n[[+name]] ([[+email]]) wrote: <br \\/>\\n \\n[[+text]]"}',
+);

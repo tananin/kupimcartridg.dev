@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e840ee721cf6008f14373708921673db',
+  'package' => 'modx',
+  'class' => 'modPluginEvent',
+  'signature' => 'ffdda50413df0ed7d13aca4a4d72f6ad',
+  'native_key' => 
+  array (
+    0 => 1,
+    1 => 'OnSnipFormPrerender',
+  ),
+  'object' => '{"pluginid":1,"event":"OnSnipFormPrerender","priority":0,"propertyset":0}',
+);

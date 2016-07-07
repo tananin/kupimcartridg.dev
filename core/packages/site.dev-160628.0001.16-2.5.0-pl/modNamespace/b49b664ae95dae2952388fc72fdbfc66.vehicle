@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5cb62d449c0fd66f14c6b1d13806d2b1',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => 'b49b664ae95dae2952388fc72fdbfc66',
+  'native_key' => 'semanager',
+  'object' => '{"name":"semanager","path":"{core_path}components\\/semanager\\/","assets_path":""}',
+);

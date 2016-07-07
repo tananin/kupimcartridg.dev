@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5bafb16fdcf394b1fc4784b8555b82f4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'e02a0801bd20daf94d2aeeb6b3d239aa',
+  'native_key' => 'site_start',
+  'object' => '{"key":"site_start","value":"1","xtype":"textfield","namespace":"core","area":"site","editedon":"0000-00-00 00:00:00"}',
+);

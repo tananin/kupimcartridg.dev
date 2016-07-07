@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '56ef0d1185ccfae7cb17eb6819da01f6',
+  'package' => 'modx',
+  'class' => 'modPluginEvent',
+  'signature' => '26c5c65c546853e12fdb5f4d3561ea0d',
+  'native_key' => 
+  array (
+    0 => 7,
+    1 => 'OnHandleRequest',
+  ),
+  'object' => '{"pluginid":7,"event":"OnHandleRequest","priority":0,"propertyset":0}',
+);

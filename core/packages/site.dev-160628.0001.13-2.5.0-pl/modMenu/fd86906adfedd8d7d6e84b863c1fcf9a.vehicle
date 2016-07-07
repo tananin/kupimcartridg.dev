@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9efcb50503a7e4b5bf9c4508a1009a08',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'fd86906adfedd8d7d6e84b863c1fcf9a',
+  'native_key' => 'admin',
+  'object' => '{"text":"admin","parent":"usernav","action":"","description":"","icon":"<i class=\\"icon-gear icon icon-large\\"><\\/i>","menuindex":1,"params":"","handler":"","permissions":"settings","namespace":"core"}',
+);

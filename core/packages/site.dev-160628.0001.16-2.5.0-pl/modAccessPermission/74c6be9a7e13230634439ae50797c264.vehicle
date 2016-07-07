@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c64c2abf1d03c36c250a01c5ffd3df1d',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '74c6be9a7e13230634439ae50797c264',
+  'native_key' => 47,
+  'object' => '{"id":47,"template":1,"name":"empty_cache","description":"perm.empty_cache_desc","value":1}',
+);

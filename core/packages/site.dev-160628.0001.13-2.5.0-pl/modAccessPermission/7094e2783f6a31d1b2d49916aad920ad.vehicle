@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '44825032ed703111e6015a1acf0371a0',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '7094e2783f6a31d1b2d49916aad920ad',
+  'native_key' => 25,
+  'object' => '{"id":25,"template":1,"name":"delete_template","description":"perm.delete_template_desc","value":1}',
+);

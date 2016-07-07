@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c58f7495958dbe8539cb34229ccba44a',
+  'package' => 'modx',
+  'class' => 'modActionField',
+  'signature' => 'b7a3a355f2e4f9e31be4d2d9025be256',
+  'native_key' => 55,
+  'object' => '{"id":55,"action":"resource\\/create","name":"parent-cmb","type":"field","tab":"modx-page-settings-left","form":"modx-panel-resource","other":"","rank":0}',
+);

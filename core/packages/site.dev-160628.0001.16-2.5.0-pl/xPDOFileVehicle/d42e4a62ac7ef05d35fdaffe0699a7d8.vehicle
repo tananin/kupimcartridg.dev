@@ -1,0 +1,15 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => '/Applications/MAMP/htdocs/site.dev/manager/components',
+    'target' => 'return MODX_MANAGER_PATH;',
+    'name' => 'components',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'vehicle_package' => 'transport',
+  'guid' => 'c4d45f29f59e1bb3cb1b29d0a53976d0',
+  'package' => '',
+  'signature' => 'd42e4a62ac7ef05d35fdaffe0699a7d8',
+  'native_key' => 'c4d45f29f59e1bb3cb1b29d0a53976d0',
+);

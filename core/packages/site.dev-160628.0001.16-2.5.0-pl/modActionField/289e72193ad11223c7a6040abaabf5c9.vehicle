@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '65f0b559fc8a58588b976a7e99891646',
+  'package' => 'modx',
+  'class' => 'modActionField',
+  'signature' => '289e72193ad11223c7a6040abaabf5c9',
+  'native_key' => 31,
+  'object' => '{"id":31,"action":"resource\\/update","name":"uri","type":"field","tab":"modx-page-settings-right-box-left","form":"modx-panel-resource","other":"","rank":4}',
+);

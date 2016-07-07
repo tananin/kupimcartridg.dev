@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'df313a3b4c45030b03195c7466f92872',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => '3b60a749a43d08f39a45e3adb3c1ac56',
+  'native_key' => 3,
+  'object' => '{"id":3,"type":"document","contentType":"text\\/html","pagetitle":"\\u0421\\u043b\\u0443\\u0436\\u0435\\u0431\\u043d\\u044b\\u0435 \\u0441\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u044b","longtitle":"","description":"","alias":"sluzhebnyie-straniczyi","link_attributes":"","published":0,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":1,"introtext":"","content":"","richtext":1,"template":0,"menuindex":9,"searchable":1,"cacheable":1,"createdby":1,"createdon":1466088826,"editedby":1,"editedon":1467036803,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":0,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"sluzhebnyie-straniczyi","uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

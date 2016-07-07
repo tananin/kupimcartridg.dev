@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6ec118372bea2251b87bf01b70d61509',
+  'package' => 'modx.transport',
+  'class' => 'modTransportProvider',
+  'signature' => '5a53957650932d8bd5ed3f108d04f3a3',
+  'native_key' => 2,
+  'object' => '{"id":2,"name":"modstore.pro","description":"","service_url":"https:\\/\\/modstore.pro\\/extras\\/","username":"tananin@yandex.ru","api_key":"cf235b7d3e36411e24fcb3ea424c3a68","created":"2016-06-16 18:10:40","updated":null,"active":1,"priority":10,"properties":""}',
+);

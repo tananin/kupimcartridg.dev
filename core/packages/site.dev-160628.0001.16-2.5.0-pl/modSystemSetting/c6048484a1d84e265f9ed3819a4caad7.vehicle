@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c817ebd75ffb972db67759d1767655e0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c6048484a1d84e265f9ed3819a4caad7',
+  'native_key' => 'phpthumbon.cache_dir',
+  'object' => '{"key":"phpthumbon.cache_dir","value":"cache_image","xtype":"textfield","namespace":"phpthumbon","area":"path","editedon":"0000-00-00 00:00:00"}',
+);

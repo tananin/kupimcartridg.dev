@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '38b792b723060101e0655b1ed40977d7',
+  'package' => 'modx',
+  'class' => 'modSnippet',
+  'signature' => 'f9c888331550769f1f017788f9e2ceb1',
+  'native_key' => 24,
+  'object' => '{"id":24,"source":0,"property_preprocess":0,"name":"parseMIGXToGallery","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"$input = $modx->fromJSON($input);\\n$output = array();\\nif (!$input || empty($tpl)) return \'no stuff\';\\nforeach ($input as $row) {\\n    if (isset($set) && !empty($set) && ($set != $row[\'set\'])) continue;\\n    $output[] = $modx->getChunk($tpl, $row);\\n}\\nreturn implode(\\"\\\\n\\", $output);","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"\\/Applications\\/MAMP\\/htdocs\\/shop-v2.dev\\/assets\\/elements\\/snippets\\/parseMIGXToGallery.sn.php","content":"$input = $modx->fromJSON($input);\\n$output = array();\\nif (!$input || empty($tpl)) return \'no stuff\';\\nforeach ($input as $row) {\\n    if (isset($set) && !empty($set) && ($set != $row[\'set\'])) continue;\\n    $output[] = $modx->getChunk($tpl, $row);\\n}\\nreturn implode(\\"\\\\n\\", $output);"}',
+);

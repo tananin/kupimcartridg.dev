@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '444e3438b96d6fb3934f3cf6d2454291',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'f432954166582ce229a6d0f84e3c2230',
+  'native_key' => 'dashboards',
+  'object' => '{"text":"dashboards","parent":"admin","action":"system\\/dashboards","description":"dashboards_desc","icon":"","menuindex":2,"params":"","handler":"","permissions":"dashboards","namespace":"core"}',
+);

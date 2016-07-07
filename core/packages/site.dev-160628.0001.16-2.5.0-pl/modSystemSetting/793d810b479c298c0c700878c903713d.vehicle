@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1b453848f079bb7bac9437d6ba06f55a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '793d810b479c298c0c700878c903713d',
+  'native_key' => 'tinymcerte.style_formats',
+  'object' => '{"key":"tinymcerte.style_formats","value":"[{\\"title\\": \\"Headers\\", \\"items\\": \\"headers_format\\"},{\\"title\\": \\"Inline\\", \\"items\\": \\"inline_format\\"},{\\"title\\": \\"Blocks\\", \\"items\\": \\"blocks_format\\"},{\\"title\\": \\"Alignment\\", \\"items\\": \\"alignment_format\\"}]","xtype":"textarea","namespace":"tinymcerte","area":"tinymcerte.style_formats","editedon":"0000-00-00 00:00:00"}',
+);

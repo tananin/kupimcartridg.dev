@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ca0f987328cdc3dac4b9ade9682fd69f',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '6429d897153ce06ca71942edd6e65d39',
+  'native_key' => 194,
+  'object' => '{"id":194,"template":4,"name":"add_children","description":"perm.add_children_desc","value":1}',
+);

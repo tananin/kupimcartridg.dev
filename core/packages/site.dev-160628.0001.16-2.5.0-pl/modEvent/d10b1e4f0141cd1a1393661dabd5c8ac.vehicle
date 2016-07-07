@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd19d3a65bf7e2c5660178f6e205af762',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'd10b1e4f0141cd1a1393661dabd5c8ac',
+  'native_key' => 'OnResourceSort',
+  'object' => '{"name":"OnResourceSort","service":1,"groupname":"Resources"}',
+);

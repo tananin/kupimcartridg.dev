@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '426830e8a8f444509c6ea55a250d0920',
+  'package' => 'modx',
+  'class' => 'modLexiconEntry',
+  'signature' => '8ce0e96e23c7f652666513c402b13e47',
+  'native_key' => 4,
+  'object' => '{"id":4,"name":"setting_setting_desc","value":"ID \\u0441\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u044b \\u043d\\u0430\\u0441\\u0442\\u0440\\u043e\\u0435\\u043a \\u0441\\u0430\\u0439\\u0442\\u0430","topic":"setting","namespace":"core","language":"ru","createdon":"2016-06-16 19:47:03","editedon":"0000-00-00 00:00:00"}',
+);

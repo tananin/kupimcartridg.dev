@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5cbefc01619b05b3e9ef855f889f2237',
+  'package' => 'modx',
+  'class' => 'modDashboard',
+  'signature' => 'c3d516237b9eab06b2f3e00e75eb53a9',
+  'native_key' => 1,
+  'object' => '{"id":1,"name":"Default","description":"","hide_trees":0}',
+);

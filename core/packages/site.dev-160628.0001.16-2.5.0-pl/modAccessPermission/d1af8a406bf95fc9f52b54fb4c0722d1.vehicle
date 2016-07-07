@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5dc74d1694394c55454926bd9ab23a23',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'd1af8a406bf95fc9f52b54fb4c0722d1',
+  'native_key' => 149,
+  'object' => '{"id":149,"template":1,"name":"unlock_element_properties","description":"perm.unlock_element_properties_desc","value":1}',
+);

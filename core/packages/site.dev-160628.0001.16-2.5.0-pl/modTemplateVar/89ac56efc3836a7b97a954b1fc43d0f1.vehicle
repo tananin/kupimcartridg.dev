@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '65e674797b0992eb3f2e7fd8eecc17fa',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => '89ac56efc3836a7b97a954b1fc43d0f1',
+  'native_key' => 10,
+  'object' => '{"id":10,"source":1,"property_preprocess":0,"type":"textarea","name":"og_description","caption":"\\u041a\\u0440\\u0430\\u0442\\u043a\\u043e\\u0435 \\u043e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435","description":"","editor_type":0,"category":6,"locked":0,"elements":"","rank":20,"display":"default","default_text":"[[++og_description]]","properties":"a:0:{}","input_properties":"a:1:{s:10:\\"allowBlank\\";s:4:\\"true\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":"[[++og_description]]"}',
+);

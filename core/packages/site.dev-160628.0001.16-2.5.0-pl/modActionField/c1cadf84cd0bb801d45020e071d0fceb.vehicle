@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '215c53d8a5c62edd2aca78ca09c74b63',
+  'package' => 'modx',
+  'class' => 'modActionField',
+  'signature' => 'c1cadf84cd0bb801d45020e071d0fceb',
+  'native_key' => 65,
+  'object' => '{"id":65,"action":"resource\\/create","name":"isfolder","type":"field","tab":"modx-page-settings-right-box-left","form":"modx-panel-resource","other":"","rank":0}',
+);

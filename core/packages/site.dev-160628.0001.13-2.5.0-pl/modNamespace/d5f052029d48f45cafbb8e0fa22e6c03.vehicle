@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3ef338a7687e4b38a8304702af626014',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => 'd5f052029d48f45cafbb8e0fa22e6c03',
+  'native_key' => 'recaptchav2',
+  'object' => '{"name":"recaptchav2","path":"{core_path}components\\/recaptchav2\\/","assets_path":"{assets_path}components\\/recaptchav2\\/"}',
+);

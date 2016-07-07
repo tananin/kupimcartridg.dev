@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '37b90a09343c647481ad88748e74ef37',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '9def0ba1d39adb5b99ae6a346536bc99',
+  'native_key' => 4,
+  'object' => '{"id":4,"template":1,"name":"change_password","description":"perm.change_password_desc","value":1}',
+);

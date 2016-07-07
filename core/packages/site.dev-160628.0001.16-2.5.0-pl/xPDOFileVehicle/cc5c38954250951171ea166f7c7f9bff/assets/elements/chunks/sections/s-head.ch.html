@@ -1,0 +1,64 @@
+[[-
+-------------------------------------------------------------------------------------------------------
+HEAD
+-------------------------------------------------------------------------------------------------------
+
+Шпаргалка
+-------------------------------------------------------------------------------------------------------
+[[++modx_charset]]            Кодировка
+
+[[++site_name]]               Название сайта
+[[++site_slogan]]             Слоган сайта
+[[++favicon]]                 Favicon
+
+[[++site_url]]                URL главной стр.
+[[*pagetitle]]                Заголовок страницы
+
+[[++viewport]]                Адаптивная ширина
+[[++favicon]]                 Фавикон
+
+=======================================================================================================
+
+<!-- Основное -->
+<meta http-equiv="Content-Type" content="type; charset=[[++modx_charset]]"/>
+<link rel="shortcut icon" href="[[++site_url]][[++favicon]]" type="image/png"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="[[++viewport]]" />
+<base href="[[++site_url]]" />
+
+
+<!--CDN-->
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!--Foundation-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
+<script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+
+
+<!--SEO-->
+[[If?&subject=`[[++seo_title]]`&operator=`notempty`&then=`<title>[[++seo_title]]</title>`&else=`<title>[[++seo_title]]</title>`]]
+[[If?&subject=`[[++seo_keywords]]`&operator=`notempty`&then=`<meta name="Keywords" content="[[++seo_keywords]]"/>`&else=``]]
+[[If?&subject=`[[++seo_description]]`&operator=`notempty`&then=`<meta name="Description" content="[[++seo_description]]"/>`&else=``]]
+[[If? &subject=`[[++seo_noindex]]` &operator=`EQ` &operand=`1` &then=`<meta name="robots" content="noindex, nofollow"/>` &else=``]]
+
+
+<!--Open Graph-->
+<meta property="og:image" content="[[If?&subject=`[[*og__image]]`&operator=`notempty`&then=`[[++site_url]][[*og__image:phpthumbon=`w=200&h=200&rc=1`]]`&else=`[[++site_url]][[#[[++setting]].site__logotip:phpthumbon=`w=200&h=200&rc=1`]]`]]"/>
+<meta property="og:site_name" content="[[*og__name]]"/>
+<meta property="og:title" content="[[If?&subject=`[[*og__title]]`&operator=`notempty`&then=`[[*og__title]]`&else=`[[*pagetitle]]`]]"/>
+<meta property="og:description" content="[[If?&subject=`[[*og__description]]`&operator=`notempty`&then=`[[*og__description]]`&else=`[[#[[++setting]].site__slogan]]`]]" />
+<meta property="og:url" content="[[~[[*id]]? &scheme=`full`]]"/>
+<meta property="og:type" content="[[*og__type]]"/>
+
+<!--Style и HEAD -->
+[[If? &subject=`[[*head]]` &operator=`notempty` &then=`[[*head]]`&else=``]]
+[[If? &subject=`[[*style]]` &operator=`notempty` &then=`<style>[[*style]]</style>`&else=``]]
+
+<!-- End HEAD-->
+=======================================================================================================
+]]

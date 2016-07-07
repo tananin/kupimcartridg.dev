@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4ab223052369e06bebc6b6a674d84169',
+  'package' => 'modx',
+  'class' => 'modDashboardWidget',
+  'signature' => 'c2e05359d155c809ab36250918092a85',
+  'native_key' => 1,
+  'object' => '{"id":1,"name":"w_newsfeed","description":"w_newsfeed_desc","type":"file","content":"[[++manager_path]]controllers\\/default\\/dashboard\\/widget.modx-news.php","namespace":"core","lexicon":"core:dashboards","size":"half","name_trans":"w_newsfeed","description_trans":"w_newsfeed_desc"}',
+);

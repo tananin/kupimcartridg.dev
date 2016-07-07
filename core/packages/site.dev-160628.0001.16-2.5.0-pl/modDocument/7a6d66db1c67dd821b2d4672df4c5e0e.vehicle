@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '947d073d2589cfedc6c70529db6814f3',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => '7a6d66db1c67dd821b2d4672df4c5e0e',
+  'native_key' => 14,
+  'object' => '{"id":14,"type":"document","contentType":"text\\/html","pagetitle":"\\u041a\\u043e\\u043d\\u0442\\u0430\\u043a\\u0442\\u044b","longtitle":"","description":"","alias":"contacts","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":0,"introtext":"","content":"","richtext":1,"template":4,"menuindex":7,"searchable":1,"cacheable":1,"createdby":1,"createdon":1466103442,"editedby":1,"editedon":1466103457,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":1466103420,"publishedby":1,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":0,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"contacts","uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

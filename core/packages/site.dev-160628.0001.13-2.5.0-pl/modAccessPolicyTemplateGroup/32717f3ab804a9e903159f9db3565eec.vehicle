@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'aff286c5fa6777838058153eec9706a5',
+  'package' => 'modx',
+  'class' => 'modAccessPolicyTemplateGroup',
+  'signature' => '32717f3ab804a9e903159f9db3565eec',
+  'native_key' => 3,
+  'object' => '{"id":3,"name":"Resource","description":"All Resource-based policy templates."}',
+);

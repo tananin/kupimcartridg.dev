@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '37c293348b907ef220f6ecb21a9d78f9',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => '2ce3476bf7c0e5dd50a568538a32f7dc',
+  'native_key' => 2,
+  'object' => '{"id":2,"name":"XML","description":"XML content","mime_type":"text\\/xml","file_extensions":".xml","headers":null,"binary":0}',
+);

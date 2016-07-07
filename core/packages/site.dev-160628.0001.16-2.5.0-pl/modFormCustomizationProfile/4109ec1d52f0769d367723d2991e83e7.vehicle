@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ead856573bf7fe0186d2a54c4469bd0b',
+  'package' => 'modx',
+  'class' => 'modFormCustomizationProfile',
+  'signature' => '4109ec1d52f0769d367723d2991e83e7',
+  'native_key' => 1,
+  'object' => '{"id":1,"name":"Standart","description":"","active":1,"rank":0}',
+);

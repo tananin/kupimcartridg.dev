@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ad1a290d83aa81817a4b74bbb14553e7',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '34ae9a80f3c58d874e281e4726e46527',
+  'native_key' => 16,
+  'object' => '{"id":16,"parent":0,"category":"SE Manager","rank":0}',
+);

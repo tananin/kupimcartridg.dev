@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4ba8a022fe509afe4ca2bd1769dd41b6',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => '22fcd88c6a19accd06524701bcd314c3',
+  'native_key' => 5,
+  'object' => '{"id":5,"source":1,"property_preprocess":0,"type":"textarea","name":"head","caption":"HEAD","description":"html \\u043a\\u043e\\u0434 \\u0432 head \\u043e\\u0431\\u043b\\u0430\\u0441\\u0442\\u044c","editor_type":0,"category":3,"locked":0,"elements":"","rank":0,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:1:{s:10:\\"allowBlank\\";s:4:\\"true\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":""}',
+);

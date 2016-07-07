@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e09d3a2267c77c744e73e3d3352f1fd6',
+  'package' => 'modx',
+  'class' => 'modActionDom',
+  'signature' => '8895ac1621c45b7cd3fe43f0c651b97a',
+  'native_key' => 57,
+  'object' => '{"id":57,"set":1,"action":"resource\\/update","name":"tv1","description":null,"xtype":"","container":"modx-panel-resource","rule":"tvMove","value":"modx-resource-main-left","constraint":"","constraint_field":"","constraint_class":"modResource","active":1,"for_parent":0,"rank":90}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b50148eb644fbe3c318afcb1f7239ce9',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => '096877e4e0cfca5226dc3f7af22add6f',
+  'native_key' => 6,
+  'object' => '{"id":6,"type":"document","contentType":"text\\/html","pagetitle":"\\u0421\\u0430\\u0439\\u0442 \\u0432\\u0440\\u0435\\u043c\\u0435\\u043d\\u043d\\u043e \\u043d\\u0435\\u0434\\u043e\\u0441\\u0442\\u0443\\u043f\\u0435\\u043d","longtitle":"","description":"","alias":"sajt-vremenno-nedostupen","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":3,"isfolder":0,"introtext":"","content":"<table border=\\"0\\" width=\\"100%\\" cellspacing=\\"0\\" cellpadding=\\"0\\">\\r\\n<tbody>\\r\\n<tr>\\r\\n<td align=\\"center\\">\\r\\n<table border=\\"0\\" cellspacing=\\"0\\" cellpadding=\\"0\\">\\r\\n<tbody>\\r\\n<tr>\\r\\n<td width=\\"150\\"><img src=\\"assets\\/images\\/siteoff.png\\" alt=\\"\\" width=\\"128\\" height=\\"128\\" \\/><\\/td>\\r\\n<td>\\r\\n<h2>\\u0421\\u0430\\u0439\\u0442 \\u0432\\u0440\\u0435\\u043c\\u0435\\u043d\\u043d\\u043e \\u043d\\u0435\\u0434\\u043e\\u0441\\u0442\\u0443\\u043f\\u0435\\u043d<\\/h2>\\r\\n<p>\\u0418\\u0434\\u0443\\u0442 \\u0442\\u0435\\u0445\\u043d\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u0435 \\u0440\\u0430\\u0431\\u043e\\u0442\\u044b. \\u041f\\u0440\\u0438\\u043d\\u043e\\u0441\\u0438\\u043c \\u0441\\u0432\\u043e\\u0438 \\u0438\\u0437\\u0432\\u0438\\u043d\\u0435\\u043d\\u0438\\u044f \\u0437\\u0430 \\u043f\\u0440\\u0438\\u0447\\u0438\\u043d\\u0435\\u043d\\u043d\\u044b\\u0435 \\u043d\\u0435\\u0443\\u0434\\u043e\\u0431\\u0441\\u0442\\u0432\\u0430.<\\/p>\\r\\n<\\/td>\\r\\n<\\/tr>\\r\\n<\\/tbody>\\r\\n<\\/table>\\r\\n<\\/td>\\r\\n<\\/tr>\\r\\n<\\/tbody>\\r\\n<\\/table>","richtext":1,"template":0,"menuindex":0,"searchable":1,"cacheable":1,"createdby":1,"createdon":1466089847,"editedby":1,"editedon":1467036699,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":1466089200,"publishedby":1,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"under-construction","uri_override":1,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

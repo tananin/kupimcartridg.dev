@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '63ca537973988bcb5675c2f1936b6d7f',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'b223e33b30e931338f06ea08874de603',
+  'native_key' => 151,
+  'object' => '{"id":151,"template":1,"name":"usergroup_edit","description":"perm.usergroup_edit_desc","value":1}',
+);

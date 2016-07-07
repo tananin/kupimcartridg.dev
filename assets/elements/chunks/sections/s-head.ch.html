@@ -1,0 +1,498 @@
+[[-
+-------------------------------------------------------------------------------------------------------
+HEAD
+-------------------------------------------------------------------------------------------------------
+
+Шпаргалка
+-------------------------------------------------------------------------------------------------------
+[[++modx_charset]]            Кодировка
+
+[[++site_name]]               Название сайта
+[[++site_slogan]]             Слоган сайта
+[[++favicon]]                 Favicon
+
+[[++site_url]]                URL главной стр.
+[[*pagetitle]]                Заголовок страницы
+
+[[++viewport]]                Адаптивная ширина
+[[++favicon]]                 Фавикон
+
+=======================================================================================================
+
+<!-- Основное -->
+<meta http-equiv="Content-Type" content="type; charset=[[++modx_charset]]"/>
+<link rel="shortcut icon" href="[[++site_url]][[++favicon]]" type="image/png"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="[[++viewport]]" />
+<base href="[[++site_url]]" />
+
+
+<!--CDN-->
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!--Foundation-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
+<script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+
+
+<!--SEO-->
+[[If?&subject=`[[++seo_title]]`&operator=`notempty`&then=`<title>[[++seo_title]]</title>`&else=`<title>[[++seo_title]]</title>`]]
+[[If?&subject=`[[++seo_keywords]]`&operator=`notempty`&then=`<meta name="Keywords" content="[[++seo_keywords]]"/>`&else=``]]
+[[If?&subject=`[[++seo_description]]`&operator=`notempty`&then=`<meta name="Description" content="[[++seo_description]]"/>`&else=``]]
+[[If? &subject=`[[++seo_noindex]]` &operator=`EQ` &operand=`1` &then=`<meta name="robots" content="noindex, nofollow"/>` &else=``]]
+
+
+<!--Open Graph-->
+<meta property="og:image" content="[[If?&subject=`[[*og__image]]`&operator=`notempty`&then=`[[++site_url]][[*og__image:phpthumbon=`w=200&h=200&rc=1`]]`&else=`[[++site_url]][[#[[++setting]].site__logotip:phpthumbon=`w=200&h=200&rc=1`]]`]]"/>
+<meta property="og:site_name" content="[[*og__name]]"/>
+<meta property="og:title" content="[[If?&subject=`[[*og__title]]`&operator=`notempty`&then=`[[*og__title]]`&else=`[[*pagetitle]]`]]"/>
+<meta property="og:description" content="[[If?&subject=`[[*og__description]]`&operator=`notempty`&then=`[[*og__description]]`&else=`[[#[[++setting]].site__slogan]]`]]" />
+<meta property="og:url" content="[[~[[*id]]? &scheme=`full`]]"/>
+<meta property="og:type" content="[[*og__type]]"/>
+
+<!--Style и HEAD -->
+[[If? &subject=`[[*head]]` &operator=`notempty` &then=`[[*head]]`&else=``]]
+[[If? &subject=`[[*style]]` &operator=`notempty` &then=`<style>[[*style]]</style>`&else=``]]
+
+<!-- End HEAD-->
+=======================================================================================================
+]]
+
+
+<!-- Основное -->
+<meta http-equiv="Content-Type" content="type; charset=[[++modx_charset]]"/>
+<link rel="shortcut icon" href="[[++site_url]][[++favicon]]" type="image/png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="[[++viewport]]" />
+<base href="[[++site_url]]" />
+
+
+
+<!--SEO-->
+[[If?&subject=`[[++seo_title]]`&operator=`notempty`&then=`<title>[[++seo_title]]</title>`&else=`<title>[[++seo_title]]</title>`]]
+[[If?&subject=`[[++seo_keywords]]`&operator=`notempty`&then=`<meta name="Keywords" content="[[++seo_keywords]]"/>`&else=``]]
+[[If?&subject=`[[++seo_description]]`&operator=`notempty`&then=`<meta name="Description" content="[[++seo_description]]"/>`&else=``]]
+[[If? &subject=`[[++seo_noindex]]` &operator=`EQ` &operand=`1` &then=`<meta name="robots" content="noindex, nofollow"/>` &else=``]]
+
+
+<!--Open Graph-->
+<meta property="og:image" content="[[If?&subject=`[[*og__image]]`&operator=`notempty`&then=`[[++site_url]][[*og__image:phpthumbon=`w=200&h=200&rc=1`]]`&else=`[[++site_url]][[#[[++setting]].site__logotip:phpthumbon=`w=200&h=200&rc=1`]]`]]"/>
+<meta property="og:site_name" content="[[*og__name]]"/>
+<meta property="og:title" content="[[If?&subject=`[[*og__title]]`&operator=`notempty`&then=`[[*og__title]]`&else=`[[*pagetitle]]`]]"/>
+<meta property="og:description" content="[[If?&subject=`[[*og__description]]`&operator=`notempty`&then=`[[*og__description]]`&else=`[[#[[++setting]].site__slogan]]`]]" />
+<meta property="og:url" content="[[~[[*id]]? &scheme=`full`]]"/>
+<meta property="og:type" content="[[*og__type]]"/>
+
+
+<title>Купим картриджи новые оригинальные оптом</title>
+
+<style type="text/css" media="all">
+    @import url("assets/style/css/system.base.css");
+    @import url("assets/style/css/system.menus.css");
+    @import url("assets/style/css/system.messages.css");
+    @import url("assets/style/css/system.theme.css");
+</style>
+<style type="text/css" media="all">
+    @import url("assets/style/css/simplenews.css");
+    @import url("assets/style/css/comment.css");
+    @import url("assets/style/css/field.css");
+    @import url("assets/style/css/node.css");
+    @import url("assets/style/css/search.css");
+    @import url("assets/style/css/user.css");
+    @import url("assets/style/css/forum.css");
+    @import url("assets/style/css/views.css");
+</style>
+<style type="text/css" media="all">
+    @import url("assets/style/css/ctools.css");
+    @import url("assets/style/css/webform.css");
+    @import url("assets/style/css/bar.css");
+    @import url("assets/style/css/nivo-slider.css");
+</style>
+<style type="text/css" media="all">
+    @import url("assets/style/css/bootstrap.css");
+    @import url("assets/style/css/superfish.css");
+    @import url("assets/style/icompany/style.css");
+</style>
+
+<!-- GOOGLE FONTS CSS -->
+<link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,subset=latin:n,i,b,bi|Lato:100,200,300,400,500,600,700,subset=latin:n,i,b,bi|PT+Sans:100,200,300,400,500,600,700,subset=latin:n,i,b,bi|Lato:100,200,300,400,500,600,700,subset=latin:n,i,b,bi|Lato' rel='stylesheet' type='text/css'/>
+
+
+
+
+<style type="text/css">
+
+    body.icompany, #wap-menu ul.sf-menu li span.tip a, .ei-title h3, #main_slider .slider-body, #main_slider .slider-link, .btn{
+        font-family: PT Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+    }
+
+    h1, h2, h3, h4, h5, h6, h7, h8, .heading,  .nav-tabs, .pricing-table ul .price, .accordion-heading, .numbered-heading, .heading-list, .uc-price {
+        font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 300;
+    }
+
+    #wap-menu ul.sf-menu li a, .tinynav{
+        font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 300;
+    }
+
+
+    #main_slider{
+        font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 300;
+    }
+
+    blockquote, .quote{
+        font-family: Lato, Georgia,"Times New Roman",Times,serif;
+        font-weight: 300;
+    }
+
+
+    /* Body background scheme goes here -----------*/
+    body{
+        background: url(/sites/all/themes/icompany/img/bg/stripe_default.png) repeat;
+    }
+
+    /** custom typo */
+    body{
+        font-size: 13px;
+
+    }
+
+    .sf-menu a{
+        font-size: 18px
+    }
+
+
+    /* Theme color scheme goes here ----------- */
+
+    a, a:hover, .color:hover, ul.menu li a:hover , #footer-bar a:hover, #footer-region a, .btn.btn-plain {
+        color: #529228 ;
+        text-decoration: none;
+    }
+
+
+    .color, .dropcap{
+        color: #529228 ;
+        text-decoration: none;
+    }
+
+    #header_left .inner{
+        margin-top: 35px;
+    }
+
+    .main_menu_container{
+        margin-top: 60px;
+    }
+
+
+    @media screen and (max-width: 767px){
+        .main_menu_container{
+            margin-top: 25px;
+        }
+    }
+
+    .theme-scheme, .btn.btn-theme, .btn-theme:focus,
+    .btn-theme:active,  .btn.btn-theme:hover,
+    .comment .new, .marker,  #title-region .inner,  .dropdown-menu .active > a,
+    .dropdown-menu .active > a:hover,
+    .dropdown-menu li > a:hover,
+    .dropdown-menu li > a:focus,
+    .dropdown-submenu:hover > a,
+    .jcarousel-next-vertical, .jcarousel-prev-vertical,
+    #highlighted_2, .round-number, .btn.btn-plain, #bottom-region, .btn.node-add-to-cart,
+    .btn.node-add-to-cart:hover, .node-product .product-title   {
+        background-color: #529228  ;
+    }
+
+    #bottom-region, .node-product .product-images .field-type-image {
+        border-color: #7eae5e ;
+    }
+
+    .product-title-border{
+        background: #97be7e ;
+    }
+
+
+    #bottom-region a{
+        color: #bad3a9    }
+
+    .theme-border, .sf-menu li.sfHover ul, #page-wrapper,  th, #forum .table th, .border-color, .banner, #footer-bar
+    {
+        border-color: #529228 ;
+    }
+
+    .region-highlighted-2, #bottomShadow{
+        border-color: #7eae5e	}
+
+    #tabs-region .tab-content{
+        border-left:2px solid #529228;
+    }
+
+    #tabs-region .tabs-left > .nav-tabs > li.active{
+        border-top:1px solid #4a8324;
+        border-left:1px solid #4a8324;
+        border-bottom:1px solid #4a8324;
+    }
+
+    #tabs-region .tabs-left > .nav-tabs > li.active > a, #tabs-region .tabs-left > .nav-tabs > li.active > a:hover {
+        border-top:1px solid #accb98;
+        border-left:1px solid #accb98;
+        border-bottom:1px solid #accb98;
+
+        border-right:none;
+        background: #529228; /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+        background: -moz-linear-gradient(top,  #7eae5e 0%, #529228 75%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7eae5e), color-stop(75%,#529228)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #7eae5e 0%,#529228 75%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #7eae5e 0%,#529228 75%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #7eae5e 0%,#529228 75%); /* IE10+ */
+        background: linear-gradient(to bottom,  #7eae5e 0%,#529228 75%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
+
+    }
+
+    .shadow-transition:hover, .btn-theme:hover,   .btn.node-add-to-cart:hover{
+        -webkit-box-shadow: 0px 0px 9px rgba(82,146,40, 0.8);
+        -moz-box-shadow:    0px 0px 9px rgba(82,146,40, 0.8);
+        box-shadow:         0px 0px 9px rgba(82,146,40, 0.8);
+    }
+
+
+    #topBar .dark-bg{
+        background: #;
+    }
+
+    /*bootstrap line 1194 */
+    textarea:focus,
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="time"]:focus,
+    input[type="week"]:focus,
+    input[type="number"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="search"]:focus,
+    input[type="tel"]:focus,
+    input[type="color"]:focus,
+    .uneditable-input:focus {
+        border-color: rgba(82,146,40, 0.8);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82,146,40, 0.6);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82,146,40, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82,146,40, 0.6);
+    }
+
+    .bar .foreground, .node-product .product-title{
+        background: #529228; /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViN2MxMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZjk2NDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top,  #97be7e 0%, #529228 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7eae5e), color-stop(100%,#529228)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #97be7e 0%,#529228 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #97be7e 0%,#529228 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #97be7e 0%,#529228 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #97be7e 0%,#529228 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97be7e', endColorstr='#529228',GradientType=0 ); /* IE6-8 */
+    }
+
+    #feedback-link:hover{
+        background: #529228;
+    }
+
+    .poll .bar{
+        box-shadow: 0 1px 2px rgba(100,100,100,.2) inset;
+        background: #eee;
+    }
+
+
+    #footer-region a, #footer-region a:visited{
+        color:  #54773C;
+    }
+
+
+    #footer-region .btn-theme, #footer-region .btn-theme:visited{
+        color: #fff;
+    }
+
+
+</style>
+
+<!--[if lt IE 7]>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<style type="text/css">
+    #page-wrapper, .sf-shadow ul {
+        behavior: url(assets/style/icompany/js/PIE.htc);
+    }
+</style>
+<![endif]-->
+
+
+<script type="text/javascript" src="assets/style/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/style/js/jquery.once.js"></script>
+<script type="text/javascript" src="assets/style/js/drupal.js"></script>
+<script type="text/javascript" src="assets/style/js/admin_devel.js"></script>
+<script type="text/javascript" src="assets/style/js/ru_4StkdUqM89iN1DlK4N8n3eZWYlOfdoMfuGi3T8x5SOg.js"></script>
+<script type="text/javascript" src="assets/style/js/textarea.js"></script>
+<script type="text/javascript" src="assets/style/js/webform.js"></script>
+<script type="text/javascript" src="assets/style/icompany/js/hoverIntent.js"></script>
+<script type="text/javascript" src="assets/style/icompany/sliders/nivo/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="assets/style/icompany/js/superfish.js"></script>
+<script type="text/javascript" src="assets/style/icompany/js/supersubs.js"></script>
+<script type="text/javascript" src="assets/style/icompany/js/tinynav.js"></script>
+<script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+
+    (function ($) {
+        $(window).load(function() {  $('#slider').nivoSlider({effect: 'random', slices: 15, boxCols: 6, boxRows: 4, pauseTime: 5000, animSpeed: 500,  });});
+    })(jQuery);
+
+    //--><!]]>
+</script>
+<script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    jQuery.extend(Drupal.settings, {
+        "basePath": "\/",
+        "pathPrefix": "",
+        "ajaxPageState": {
+            "theme": "icompany",
+            "theme_token": "14OR8GLkkgCciHqNHXE2sVc_6s8nwq1FSXeuzCZ8ofI"
+        },
+        "jcarousel": {"ajaxPath": "\/jcarousel\/ajax\/views"}
+    });
+    //--><!]]>
+</script>
+
+<!-- Slider stuffs -->
+
+
+<!-- END//Slider stuffs -->
+
+
+<!--img preloader-->
+<script type="text/javascript">(function ($) {
+    $.fn.preloader = function (options) {
+        var defaults = {
+            delay: 400, preload_parent: "a", check_timer: 300, ondone: function () {
+            }, oneachload: function (image) {
+            }, fadein: 500
+        };
+        var options = $.extend(defaults, options), root = $(this), images = root.find("img").css({
+            "visibility": "hidden",
+            opacity: 0
+        }), timer, counter = 0, i = 0, checkFlag = [], delaySum = options.delay, init = function () {
+            timer = setInterval(function () {
+                if (counter >= checkFlag.length) {
+                    clearInterval(timer);
+                    options.ondone();
+                    return
+                }
+                for (i = 0; i < images.length; i++) {
+                    if (images[i].complete == true) {
+                        if (checkFlag[i] == false) {
+                            checkFlag[i] = true;
+                            options.oneachload(images[i]);
+                            counter++;
+                            delaySum = delaySum + options.delay
+                        }
+                        $(images[i]).css("visibility", "visible").delay(delaySum).animate({opacity: 1}, options.fadein, function () {
+                            $(this).parent().removeClass("preloader")
+                        })
+                    }
+                }
+            }, options.check_timer)
+        };
+        images.each(function () {
+            if ($(this).parent(options.preload_parent).length == 0)$(this).wrap("<a class='preloader' />"); else $(this).parent().addClass("preloader");
+            checkFlag[i++] = false
+        });
+        images = $.makeArray(images);
+        var icon = jQuery("<img />", {
+            id: 'loadingicon',
+            src: 'assets/style/icompany/img/89.gif'
+        }).hide().appendTo("body");
+        timer = setInterval(function () {
+            if (icon[0].complete == true) {
+                clearInterval(timer);
+                init();
+                icon.remove();
+                return
+            }
+        }, 100)
+    }
+})(jQuery);</script>
+
+<!--script executions -->
+<script type="text/javascript">
+    //superfish initialize
+    (function ($) {
+        jQuery(function(){
+            jQuery('ul.sf-menu').superfish();
+        });
+
+        //superfish > supersubs
+        $(document).ready(function(){
+            $("ul.sf-menu").supersubs({
+                minWidth:    12,   // minimum width of sub-menus in em units
+                maxWidth:    27,   // maximum width of sub-menus in em units
+                extraWidth:  1     // extra width can ensure lines don't sometimes turn over
+                                   // due to slight rounding differences and font-family
+            }).superfish();  // call supersubs first, then superfish, so that subs are
+                             // not display:none when measuring. Call before initialising
+                             // containing tabs for same reason.
+
+
+            //image preloader
+            $(function(){
+                $(".portfolio-image").preloader();
+                $(".fancy-preload").preloader();
+                $(".node .field-type-image").preloader();
+            });
+
+        });
+    })(jQuery);
+
+    // Tiny nav
+    (function ($) {
+        $(function () {
+            $("#nav").tinyNav();
+        });
+    })(jQuery);
+
+    //back to top
+    (function ($) {
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('#toTop').fadeIn();
+                } else {
+                    $('#toTop').fadeOut();
+                }
+            });
+
+            $('#toTop').click(function() {
+                $('body,html').animate({scrollTop:0},800);
+            });
+        });
+    })(jQuery);
+</script>
+
+
+<!--Style и HEAD -->
+[[If? &subject=`[[*head]]` &operator=`notempty` &then=`[[*head]]`&else=``]]
+[[If? &subject=`[[*style]]` &operator=`notempty` &then=`<style>[[*style]]</style>`&else=``]]

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6bd2ffd0a1e09bad85fe9cdb9e6702a0',
+  'package' => 'modx',
+  'class' => 'modSnippet',
+  'signature' => '4b59d10d9cbbd98a06678892795b06e9',
+  'native_key' => 30,
+  'object' => '{"id":30,"source":0,"property_preprocess":0,"name":"migxImageUpload","description":"","editor_type":0,"category":20,"cache_type":0,"snippet":"return include $modx->getOption(\'core_path\').\'components\\/migx\\/model\\/imageupload\\/imageupload.php\';","locked":0,"properties":null,"moduleguid":"","static":0,"static_file":"","content":"return include $modx->getOption(\'core_path\').\'components\\/migx\\/model\\/imageupload\\/imageupload.php\';"}',
+);

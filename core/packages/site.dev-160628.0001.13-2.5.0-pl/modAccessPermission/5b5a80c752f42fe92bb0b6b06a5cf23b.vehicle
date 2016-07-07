@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'bc8a8e7f5ea1ed045fcdd015f04116f6',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '5b5a80c752f42fe92bb0b6b06a5cf23b',
+  'native_key' => 122,
+  'object' => '{"id":122,"template":1,"name":"resource_quick_update","description":"perm.resource_quick_update_desc","value":1}',
+);

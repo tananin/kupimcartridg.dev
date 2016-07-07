@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '20a7325803b0c7d5a75c8421bd7e77cb',
+  'package' => 'modx',
+  'class' => 'modActionDom',
+  'signature' => '655ac93463450f09b2882a9a891ca655',
+  'native_key' => 46,
+  'object' => '{"id":46,"set":2,"action":"resource\\/update","name":"modx-resource-content","description":null,"xtype":"","container":"modx-panel-resource","rule":"fieldVisible","value":"0","constraint":"","constraint_field":"","constraint_class":"modResource","active":1,"for_parent":0,"rank":5}',
+);

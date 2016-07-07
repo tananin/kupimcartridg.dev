@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '59dd5d7fc6aff24dfb6bb9cbed1657d1',
+  'package' => 'modx',
+  'class' => 'modActionDom',
+  'signature' => '274113000653832fdc3aa34f14a40cb4',
+  'native_key' => 53,
+  'object' => '{"id":53,"set":2,"action":"resource\\/update","name":"modx-page-settings-right-box-left","description":null,"xtype":"","container":"modx-resource-tabs","rule":"tabVisible","value":"0","constraint":"","constraint_field":"","constraint_class":"modResource","active":1,"for_parent":0,"rank":2}',
+);

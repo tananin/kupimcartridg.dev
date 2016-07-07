@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7e0d754668bdee49c11e9d5342b695b9',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'ef9d5e913aafa41e198ab2c570dcb61b',
+  'native_key' => 7,
+  'object' => '{"id":7,"template":1,"name":"class_map","description":"perm.class_map_desc","value":1}',
+);

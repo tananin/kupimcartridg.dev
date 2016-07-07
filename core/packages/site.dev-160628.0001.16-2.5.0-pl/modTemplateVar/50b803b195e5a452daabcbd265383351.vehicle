@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '917c86e19e5373cccb6c86ff98c173e6',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => '50b803b195e5a452daabcbd265383351',
+  'native_key' => 29,
+  'object' => '{"id":29,"source":1,"property_preprocess":0,"type":"text","name":"og_site_name","caption":"\\u0418\\u043c\\u044f \\u0441\\u0430\\u0439\\u0442\\u0430","description":"","editor_type":0,"category":6,"locked":0,"elements":"","rank":5,"display":"default","default_text":"[[++site_name]]","properties":"a:0:{}","input_properties":"a:5:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";s:5:\\"regex\\";s:0:\\"\\";s:9:\\"regexText\\";s:0:\\"\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":"[[++site_name]]"}',
+);

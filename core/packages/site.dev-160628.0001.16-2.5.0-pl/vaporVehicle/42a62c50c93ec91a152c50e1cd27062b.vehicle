@@ -1,0 +1,32 @@
+<?php return array (
+  'class' => 'vaporVehicle',
+  'object' => 
+  array (
+    'tableName' => 'clientconfig_group',
+    'drop' => 'DROP TABLE IF EXISTS `[[++table_prefix]]clientconfig_group`',
+    'table' => 'CREATE TABLE `[[++table_prefix]]clientconfig_group` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `label` varchar(75) NOT NULL DEFAULT \'\',
+  `description` text NOT NULL,
+  `sortorder` int(10) NOT NULL DEFAULT \'0\',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8',
+    'data' => 
+    array (
+      0 => 'INSERT INTO `[[++table_prefix]]clientconfig_group` (`id`, `label`, `description`, `sortorder`) VALUES (\'1\', \'SEO\', \'Поисковая оптимизация сайта\', \'40\')',
+      1 => 'INSERT INTO `[[++table_prefix]]clientconfig_group` (`id`, `label`, `description`, `sortorder`) VALUES (\'2\', \'Файлы\', \'Файлы для скачивания\', \'60\')',
+      2 => 'INSERT INTO `[[++table_prefix]]clientconfig_group` (`id`, `label`, `description`, `sortorder`) VALUES (\'3\', \'Счётчики\', \'HTML код счётчиков\', \'80\')',
+      3 => 'INSERT INTO `[[++table_prefix]]clientconfig_group` (`id`, `label`, `description`, `sortorder`) VALUES (\'4\', \'Соц. сети\', \'Блок «Поделиться» в социальных сетях\', \'60\')',
+      4 => 'INSERT INTO `[[++table_prefix]]clientconfig_group` (`id`, `label`, `description`, `sortorder`) VALUES (\'5\', \'Настройки сайта\', \'Основные настройки сайта\', \'10\')',
+      5 => 'INSERT INTO `[[++table_prefix]]clientconfig_group` (`id`, `label`, `description`, `sortorder`) VALUES (\'6\', \'Контакты\', \'Контактная информация на сайте\', \'20\')',
+      6 => 'INSERT INTO `[[++table_prefix]]clientconfig_group` (`id`, `label`, `description`, `sortorder`) VALUES (\'7\', \'Дизайн\', \'\', \'30\')',
+      7 => 'INSERT INTO `[[++table_prefix]]clientconfig_group` (`id`, `label`, `description`, `sortorder`) VALUES (\'8\', \'Google captcha\', \'Ключи для google.com/recaptcha\', \'70\')',
+    ),
+  ),
+  'vehicle_package' => 'vapor',
+  'vehicle_class' => 'vaporVehicle',
+  'guid' => '7efb150bd44bb919fb719fd636c3e332',
+  'package' => '',
+  'signature' => '42a62c50c93ec91a152c50e1cd27062b',
+  'native_key' => '7efb150bd44bb919fb719fd636c3e332',
+);
